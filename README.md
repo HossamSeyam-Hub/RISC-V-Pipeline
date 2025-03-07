@@ -4,25 +4,25 @@ This repository contains an implementation of a pipelined RISC-V processor, desi
 
 Features
 
-✳Implements a 5-stage pipeline:
+  ✳Implements a 5-stage pipeline:
+  
+    ✅Fetch (IF) – Instruction fetching from memory
 
-✅Fetch (IF) – Instruction fetching from memory
+    ✅Decode (ID) – Instruction decoding and register read
 
-✅Decode (ID) – Instruction decoding and register read
+    ✅Execute (EX) – ALU operations and branch calculations
 
-✅Execute (EX) – ALU operations and branch calculations
+    ✅Memory (MEM) – Data memory access
 
-✅Memory (MEM) – Data memory access
+    ✅Write-back (WB) – Writing results back to registers
 
-✅Write-back (WB) – Writing results back to registers
+  ✳Supports a subset of the RV32I instruction set
 
-✳Supports a subset of the RV32I instruction set
+  ✳Implements hazard detection and forwarding to resolve data dependencies
 
-✳Implements hazard detection and forwarding to resolve data dependencies
+  ✳Designed in Verilog
 
-✳Designed in Verilog
-
-✳Testbenches and example programs included
+  ✳Testbenches and example programs included
 
 🚀 Feel free to contribute, report issues, or suggest improvements!
 
