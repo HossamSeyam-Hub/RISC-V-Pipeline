@@ -2,7 +2,7 @@
 
 This repository contains an implementation of a pipelined RISC-V processor, designed to execute a subset of the RV32I instruction set efficiently. The processor follows a five-stage pipeline architecture to improve instruction throughput while handling data and control hazards.
 
-Features
+🛑Features
 
   ✳Implements a 5-stage pipeline:
   
@@ -16,7 +16,7 @@ Features
 
   ✅Execute (EX) – ALU operations and branch calculations
   
-   ![3-Execute_stage](https://github.com/user-attachments/assets/4d8ce3f1-2380-4ecc-a0be-72fad04fd609)
+  ![3-Execute_stage](https://github.com/user-attachments/assets/4d8ce3f1-2380-4ecc-a0be-72fad04fd609)
 
   ✅Memory (MEM) – Data memory access
   
@@ -24,7 +24,7 @@ Features
 
   ✅Write-back (WB) – Writing results back to registers
   
-    ![Screenshot 2025-02-25 161737 - Copy](https://github.com/user-attachments/assets/aad1f056-cfba-4b41-8381-da53e460d94a)
+  ![Screenshot 2025-02-25 161737 - Copy](https://github.com/user-attachments/assets/aad1f056-cfba-4b41-8381-da53e460d94a)
 
   ✳Supports a subset of the RV32I instruction set
   
